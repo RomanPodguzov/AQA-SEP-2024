@@ -44,7 +44,7 @@ public class ListDemo {
         List<Car> barelyUsedCars = new ArrayList<>();
         List<Car> heavilyUsedCars = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
-            cars.add(new Car());
+            cars.add(new Car("a"));
         }
 
         for (int i = 0; i < cars.size(); i++) {

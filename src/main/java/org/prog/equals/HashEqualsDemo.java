@@ -15,9 +15,9 @@ public class HashEqualsDemo {
      */
 
     public static void main(String[] args) {
-        Car car1 = new Car();
+        Car car1 = new Car("a");
         Car joshCar = car1;
-        Car car2 = new Car();
+        Car car2 = new Car("a");
 
         car1.color = "red";
         car2.color = "red";

@@ -4,6 +4,10 @@ public class Car {
     public String color;
     public int milage;
 
+    public Car(String carColor) {
+        color = carColor;
+    }
+
     public void turnLeft() {
         System.out.println("Turning Left");
     }

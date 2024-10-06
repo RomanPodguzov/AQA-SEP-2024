@@ -23,7 +23,7 @@ public class Main {
 
         System.out.println("=======================================");
 
-        Car car = new Car();
+        Car car = new Car("a");
 //        Truck truck = new Truck();
 //        BigTruck bigTruck = new BigTruck();
 //        RoadTrain roadTrain = new RoadTrain();

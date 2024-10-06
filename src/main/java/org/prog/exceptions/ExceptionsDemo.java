@@ -8,8 +8,8 @@ public class ExceptionsDemo {
 
     public static void main(String[] args) {
         try {
-            Car car1 = new Car();
-            Car car2 = new Car();
+            Car car1 = new Car("a");
+            Car car2 = new Car("a");
             System.out.println(car1.equals(car2));
         } catch (Exception e) {
             System.out.println("Car must have colors!");
