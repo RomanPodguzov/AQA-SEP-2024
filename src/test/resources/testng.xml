@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--BeforeSuite-->
+<suite name="Suite1" verbose="1">
+    <!--BeforeTest-->
+    <test name="regression1">
+        <!--BeforeClass-->
+        <classes>
+            <!--BeforeMethod-->
+            <class name="org.prog.testng.web.MyWebTest"/>
+            <!--AfterMethod-->
+        </classes>
+        <!--AfterClass-->
+    </test>
+    <!--AfterTest-->
+</suite>
+<!--AfterSuite-->
