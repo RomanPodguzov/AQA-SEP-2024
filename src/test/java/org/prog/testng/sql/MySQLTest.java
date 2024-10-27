@@ -13,7 +13,7 @@ import java.util.List;
 
 public class MySQLTest {
 
-    private final static String DB_URL = "jdbc:mysql://localhost:3306/db";
+    private final static String DB_URL = "jdbc:mysql://mysql-db-1:3306/db";
     private final static String INSERT_QUERY =
             "insert into Persons (FirstName, LastName, Gender, Title, Nat) VALUES ('%s', '%s', '%s', '%s', '%s')";
 
